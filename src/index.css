@@ -1,0 +1,39 @@
+:root {
+  --royal-dark-yellow: #D4A017;
+  --light-yellow: #F5DEB3;
+  --white: #FFFFFF;
+  --dark-bg: #1A1A1A;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--royal-dark-yellow);
+  color: var(--dark-bg);
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--light-yellow);
+  transform: translateY(-2px);
+}
