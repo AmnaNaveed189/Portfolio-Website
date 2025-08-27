@@ -9,11 +9,20 @@ import diabetes_dashboard from '../assets/Projects/Diabetes Patient Analysis Das
 import hr_dashboard from '../assets/Projects/HR Analytics Dashboard Image.png'
 import heartattack_dashboard from '../assets/Projects/HeartAttack.png'
 import scal from '../assets/Projects/SCAL.png'
+import RFM from '../assets/Projects/RFM-Metrics.webp'
 import '../App.css';
 
 const Projects = () => {
   // All projects in a single array
   const projects = [
+    {
+      title: "Customer Segmentation using RFM Analysis",
+      description: "Segmentation of customers based on Recency, Frequency, and Monetary metrics to identify high-value customers",
+      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Data Analysis", "Data Visualization"],
+      githubUrl: "https://github.com/AmnaNaveed189/Elevvo_Pathways_Internship_Projects.git",
+      
+      image: RFM
+    },
     {
       title: "HR Analytics Dashboard",
       description: "Interactive dashboard analyzing Attrition Rate by Age groups, Education Departments, etc",
