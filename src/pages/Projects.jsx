@@ -10,11 +10,21 @@ import hr_dashboard from '../assets/Projects/HR Analytics Dashboard Image.png'
 import heartattack_dashboard from '../assets/Projects/HeartAttack.png'
 import scal from '../assets/Projects/SCAL.png'
 import RFM from '../assets/Projects/RFM-Metrics.webp'
+import diabetes_patient from '../assets/Projects/Diabetes_Patient_Readmission.png'
+import Diabetes_Patient from '../assets/Projects/Diabetes_Patient.jpg'
 import '../App.css';
 
 const Projects = () => {
   // All projects in a single array
   const projects = [
+    {
+      title: "Diabetes Patient Readmission Risk Analysis",
+      description: "Analyzing patient data to predict the likelihood of readmission",
+      technologies: ["SQL", "DAX", "Power Bi", "Data Analysis", "Data Visualization"],
+      githubUrl: "https://github.com/AmnaNaveed189/Data-Analytics-Projects.git",
+      liveUrl: diabetes_patient,
+      image: Diabetes_Patient
+    },
     {
       title: "Customer Segmentation using RFM Analysis",
       description: "Segmentation of customers based on Recency, Frequency, and Monetary metrics to identify high-value customers",
