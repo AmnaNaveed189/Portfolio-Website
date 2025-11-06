@@ -12,11 +12,21 @@ import scal from '../assets/Projects/SCAL.png'
 import RFM from '../assets/Projects/RFM-Metrics.webp'
 import diabetes_patient from '../assets/Projects/Diabetes_Patient_Readmission.png'
 import Diabetes_Patient from '../assets/Projects/Diabetes_Patient.jpg'
+import Br from '../assets/Projects/Br. Dashboards.png'
+import BrImage from '../assets/Projects/Br Image.png'
 import '../App.css';
 
 const Projects = () => {
   // All projects in a single array
   const projects = [
+    {
+      title: "Brazilian Ecommerce Public Dataset Analysis",
+      description: "Analyzing customer behavior, sales trends, and product performance in the Brazilian e-commerce market",
+      technologies: ["DAX", "Power Bi", "Data Analysis", "Data Visualization"],
+      githubUrl: "https://github.com/AmnaNaveed189/Elevvo_Pathways_Internship_Projects.git",
+      liveUrl: Br,
+      image: BrImage
+    },
     {
       title: "Diabetes Patient Readmission Risk Analysis",
       description: "Analyzing patient data to predict the likelihood of readmission",
